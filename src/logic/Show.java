@@ -1,10 +1,9 @@
 package logic;
 import data.Database;
-
 import java.util.ArrayList;
 
 /**
- * Class Show that holds the information for
+ * Class Show that creates an array list that holds the data for shows.
  * @author Catherine Giovetti
  * @version 2021.12.04
  */

@@ -3,19 +3,19 @@ import data.Database;
 import java.util.ArrayList;
 
 /**
- * class Genre that creates an array list to hold the genre names.
+ * Collects Data for Show Types into an array list.
  * @author Catherine Giovetti
  * @version 2021.12.04
  */
-public class Genre {
+public class ShowType {
     private String name;
 
-    public Genre(String n) {
+    public ShowType(String n) {
         name = n;
     }
 
-    public static ArrayList<Genre> getAllGenres(){
-        return Database.getAllGenres();
+    public static ArrayList<ShowType> getAllShowTypes(){
+        return Database.getAllShowTypes();
     }
 
     public String getName() {
